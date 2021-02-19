@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6B86DB25DF6E2500DA064E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B86DA25DF6E2500DA064E /* AppDelegate.m */; };
+		2F6B86E125DF6E2500DA064E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B86E025DF6E2500DA064E /* ViewController.m */; };
+		2F6B86E625DF6E2600DA064E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6B86E525DF6E2600DA064E /* Assets.xcassets */; };
+		2F6B86E925DF6E2600DA064E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6B86E725DF6E2600DA064E /* LaunchScreen.storyboard */; };
+		2F6B86EC25DF6E2600DA064E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B86EB25DF6E2600DA064E /* main.m */; };
+		2F6B86F625DF6E2600DA064E /* LandscapeWindowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B86F525DF6E2600DA064E /* LandscapeWindowDemoTests.m */; };
+		2F6B870125DF6E2600DA064E /* LandscapeWindowDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B870025DF6E2600DA064E /* LandscapeWindowDemoUITests.m */; };
+		2F6B873725DF8ABF00DA064E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B871F25DF8ABF00DA064E /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2F6B873825DF8ABF00DA064E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B872825DF8ABF00DA064E /* ViewController+MASAdditions.m */; };
+		2F6B873925DF8ABF00DA064E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B872C25DF8ABF00DA064E /* MASCompositeConstraint.m */; };
+		2F6B873A25DF8ABF00DA064E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B872D25DF8ABF00DA064E /* MASConstraintMaker.m */; };
+		2F6B873B25DF8ABF00DA064E /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B872E25DF8ABF00DA064E /* MASLayoutConstraint.m */; };
+		2F6B873C25DF8ABF00DA064E /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B872F25DF8ABF00DA064E /* NSArray+MASAdditions.m */; };
+		2F6B873D25DF8ABF00DA064E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B873025DF8ABF00DA064E /* View+MASAdditions.m */; };
+		2F6B873E25DF8ABF00DA064E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B873325DF8ABF00DA064E /* MASConstraint.m */; };
+		2F6B873F25DF8ABF00DA064E /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B873525DF8ABF00DA064E /* MASViewConstraint.m */; };
+		2F6B874025DF8ABF00DA064E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B873625DF8ABF00DA064E /* MASViewAttribute.m */; };
+		2F6B874625DF8B3100DA064E /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B874525DF8B3100DA064E /* PlayerViewController.m */; };
+		2F6B874D25DF951A00DA064E /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B874C25DF951A00DA064E /* LandscapeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F6B86F225DF6E2600DA064E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F6B86CE25DF6E2500DA064E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6B86D525DF6E2500DA064E;
+			remoteInfo = LandscapeWindowDemo;
+		};
+		2F6B86FD25DF6E2600DA064E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F6B86CE25DF6E2500DA064E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6B86D525DF6E2500DA064E;
+			remoteInfo = LandscapeWindowDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F6B86D625DF6E2500DA064E /* LandscapeWindowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandscapeWindowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6B86D925DF6E2500DA064E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F6B86DA25DF6E2500DA064E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F6B86DF25DF6E2500DA064E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F6B86E025DF6E2500DA064E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F6B86E525DF6E2600DA064E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F6B86E825DF6E2600DA064E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F6B86EA25DF6E2600DA064E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6B86EB25DF6E2600DA064E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F6B86F125DF6E2600DA064E /* LandscapeWindowDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandscapeWindowDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6B86F525DF6E2600DA064E /* LandscapeWindowDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeWindowDemoTests.m; sourceTree = "<group>"; };
+		2F6B86F725DF6E2600DA064E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6B86FC25DF6E2600DA064E /* LandscapeWindowDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandscapeWindowDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6B870025DF6E2600DA064E /* LandscapeWindowDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeWindowDemoUITests.m; sourceTree = "<group>"; };
+		2F6B870225DF6E2600DA064E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6B871E25DF8ABF00DA064E /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		2F6B871F25DF8ABF00DA064E /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2F6B872025DF8ABF00DA064E /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2F6B872125DF8ABF00DA064E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		2F6B872225DF8ABF00DA064E /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2F6B872325DF8ABF00DA064E /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		2F6B872425DF8ABF00DA064E /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		2F6B872525DF8ABF00DA064E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2F6B872625DF8ABF00DA064E /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		2F6B872725DF8ABF00DA064E /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		2F6B872825DF8ABF00DA064E /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		2F6B872925DF8ABF00DA064E /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		2F6B872A25DF8ABF00DA064E /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		2F6B872B25DF8ABF00DA064E /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2F6B872C25DF8ABF00DA064E /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2F6B872D25DF8ABF00DA064E /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		2F6B872E25DF8ABF00DA064E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2F6B872F25DF8ABF00DA064E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2F6B873025DF8ABF00DA064E /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		2F6B873125DF8ABF00DA064E /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2F6B873225DF8ABF00DA064E /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		2F6B873325DF8ABF00DA064E /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		2F6B873425DF8ABF00DA064E /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		2F6B873525DF8ABF00DA064E /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		2F6B873625DF8ABF00DA064E /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		2F6B874425DF8B3100DA064E /* PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		2F6B874525DF8B3100DA064E /* PlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		2F6B874B25DF951A00DA064E /* LandscapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		2F6B874C25DF951A00DA064E /* LandscapeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F6B86D325DF6E2500DA064E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6B86EE25DF6E2600DA064E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6B86F925DF6E2600DA064E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F6B86CD25DF6E2500DA064E = {
+			isa = PBXGroup;
+			children = (
+				2F6B86D825DF6E2500DA064E /* LandscapeWindowDemo */,
+				2F6B86F425DF6E2600DA064E /* LandscapeWindowDemoTests */,
+				2F6B86FF25DF6E2600DA064E /* LandscapeWindowDemoUITests */,
+				2F6B86D725DF6E2500DA064E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F6B86D725DF6E2500DA064E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F6B86D625DF6E2500DA064E /* LandscapeWindowDemo.app */,
+				2F6B86F125DF6E2600DA064E /* LandscapeWindowDemoTests.xctest */,
+				2F6B86FC25DF6E2600DA064E /* LandscapeWindowDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F6B86D825DF6E2500DA064E /* LandscapeWindowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2F6B874A25DF94F900DA064E /* LandscapeWindow */,
+				2F6B871D25DF8ABF00DA064E /* Masonry */,
+				2F6B86D925DF6E2500DA064E /* AppDelegate.h */,
+				2F6B86DA25DF6E2500DA064E /* AppDelegate.m */,
+				2F6B86DF25DF6E2500DA064E /* ViewController.h */,
+				2F6B86E025DF6E2500DA064E /* ViewController.m */,
+				2F6B86E525DF6E2600DA064E /* Assets.xcassets */,
+				2F6B86E725DF6E2600DA064E /* LaunchScreen.storyboard */,
+				2F6B86EA25DF6E2600DA064E /* Info.plist */,
+				2F6B86EB25DF6E2600DA064E /* main.m */,
+				2F6B874425DF8B3100DA064E /* PlayerViewController.h */,
+				2F6B874525DF8B3100DA064E /* PlayerViewController.m */,
+			);
+			path = LandscapeWindowDemo;
+			sourceTree = "<group>";
+		};
+		2F6B86F425DF6E2600DA064E /* LandscapeWindowDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F6B86F525DF6E2600DA064E /* LandscapeWindowDemoTests.m */,
+				2F6B86F725DF6E2600DA064E /* Info.plist */,
+			);
+			path = LandscapeWindowDemoTests;
+			sourceTree = "<group>";
+		};
+		2F6B86FF25DF6E2600DA064E /* LandscapeWindowDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F6B870025DF6E2600DA064E /* LandscapeWindowDemoUITests.m */,
+				2F6B870225DF6E2600DA064E /* Info.plist */,
+			);
+			path = LandscapeWindowDemoUITests;
+			sourceTree = "<group>";
+		};
+		2F6B871D25DF8ABF00DA064E /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2F6B871E25DF8ABF00DA064E /* MASCompositeConstraint.h */,
+				2F6B871F25DF8ABF00DA064E /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2F6B872025DF8ABF00DA064E /* MASConstraint+Private.h */,
+				2F6B872125DF8ABF00DA064E /* MASLayoutConstraint.h */,
+				2F6B872225DF8ABF00DA064E /* NSArray+MASShorthandAdditions.h */,
+				2F6B872325DF8ABF00DA064E /* MASConstraintMaker.h */,
+				2F6B872425DF8ABF00DA064E /* View+MASAdditions.h */,
+				2F6B872525DF8ABF00DA064E /* NSArray+MASAdditions.h */,
+				2F6B872625DF8ABF00DA064E /* MASUtilities.h */,
+				2F6B872725DF8ABF00DA064E /* MASViewAttribute.h */,
+				2F6B872825DF8ABF00DA064E /* ViewController+MASAdditions.m */,
+				2F6B872925DF8ABF00DA064E /* MASViewConstraint.h */,
+				2F6B872A25DF8ABF00DA064E /* MASConstraint.h */,
+				2F6B872B25DF8ABF00DA064E /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2F6B872C25DF8ABF00DA064E /* MASCompositeConstraint.m */,
+				2F6B872D25DF8ABF00DA064E /* MASConstraintMaker.m */,
+				2F6B872E25DF8ABF00DA064E /* MASLayoutConstraint.m */,
+				2F6B872F25DF8ABF00DA064E /* NSArray+MASAdditions.m */,
+				2F6B873025DF8ABF00DA064E /* View+MASAdditions.m */,
+				2F6B873125DF8ABF00DA064E /* View+MASShorthandAdditions.h */,
+				2F6B873225DF8ABF00DA064E /* Masonry.h */,
+				2F6B873325DF8ABF00DA064E /* MASConstraint.m */,
+				2F6B873425DF8ABF00DA064E /* ViewController+MASAdditions.h */,
+				2F6B873525DF8ABF00DA064E /* MASViewConstraint.m */,
+				2F6B873625DF8ABF00DA064E /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		2F6B874A25DF94F900DA064E /* LandscapeWindow */ = {
+			isa = PBXGroup;
+			children = (
+				2F6B874B25DF951A00DA064E /* LandscapeViewController.h */,
+				2F6B874C25DF951A00DA064E /* LandscapeViewController.m */,
+			);
+			path = LandscapeWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F6B86D525DF6E2500DA064E /* LandscapeWindowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6B870525DF6E2600DA064E /* Build configuration list for PBXNativeTarget "LandscapeWindowDemo" */;
+			buildPhases = (
+				2F6B86D225DF6E2500DA064E /* Sources */,
+				2F6B86D325DF6E2500DA064E /* Frameworks */,
+				2F6B86D425DF6E2500DA064E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LandscapeWindowDemo;
+			productName = LandscapeWindowDemo;
+			productReference = 2F6B86D625DF6E2500DA064E /* LandscapeWindowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F6B86F025DF6E2600DA064E /* LandscapeWindowDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6B870825DF6E2600DA064E /* Build configuration list for PBXNativeTarget "LandscapeWindowDemoTests" */;
+			buildPhases = (
+				2F6B86ED25DF6E2600DA064E /* Sources */,
+				2F6B86EE25DF6E2600DA064E /* Frameworks */,
+				2F6B86EF25DF6E2600DA064E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F6B86F325DF6E2600DA064E /* PBXTargetDependency */,
+			);
+			name = LandscapeWindowDemoTests;
+			productName = LandscapeWindowDemoTests;
+			productReference = 2F6B86F125DF6E2600DA064E /* LandscapeWindowDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F6B86FB25DF6E2600DA064E /* LandscapeWindowDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6B870B25DF6E2600DA064E /* Build configuration list for PBXNativeTarget "LandscapeWindowDemoUITests" */;
+			buildPhases = (
+				2F6B86F825DF6E2600DA064E /* Sources */,
+				2F6B86F925DF6E2600DA064E /* Frameworks */,
+				2F6B86FA25DF6E2600DA064E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F6B86FE25DF6E2600DA064E /* PBXTargetDependency */,
+			);
+			name = LandscapeWindowDemoUITests;
+			productName = LandscapeWindowDemoUITests;
+			productReference = 2F6B86FC25DF6E2600DA064E /* LandscapeWindowDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F6B86CE25DF6E2500DA064E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2F6B86D525DF6E2500DA064E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2F6B86F025DF6E2600DA064E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2F6B86D525DF6E2500DA064E;
+					};
+					2F6B86FB25DF6E2600DA064E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2F6B86D525DF6E2500DA064E;
+					};
+				};
+			};
+			buildConfigurationList = 2F6B86D125DF6E2500DA064E /* Build configuration list for PBXProject "LandscapeWindowDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F6B86CD25DF6E2500DA064E;
+			productRefGroup = 2F6B86D725DF6E2500DA064E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F6B86D525DF6E2500DA064E /* LandscapeWindowDemo */,
+				2F6B86F025DF6E2600DA064E /* LandscapeWindowDemoTests */,
+				2F6B86FB25DF6E2600DA064E /* LandscapeWindowDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F6B86D425DF6E2500DA064E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6B86E925DF6E2600DA064E /* LaunchScreen.storyboard in Resources */,
+				2F6B86E625DF6E2600DA064E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6B86EF25DF6E2600DA064E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6B86FA25DF6E2600DA064E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F6B86D225DF6E2500DA064E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6B873A25DF8ABF00DA064E /* MASConstraintMaker.m in Sources */,
+				2F6B86E125DF6E2500DA064E /* ViewController.m in Sources */,
+				2F6B873825DF8ABF00DA064E /* ViewController+MASAdditions.m in Sources */,
+				2F6B873F25DF8ABF00DA064E /* MASViewConstraint.m in Sources */,
+				2F6B86DB25DF6E2500DA064E /* AppDelegate.m in Sources */,
+				2F6B873B25DF8ABF00DA064E /* MASLayoutConstraint.m in Sources */,
+				2F6B873E25DF8ABF00DA064E /* MASConstraint.m in Sources */,
+				2F6B874625DF8B3100DA064E /* PlayerViewController.m in Sources */,
+				2F6B873C25DF8ABF00DA064E /* NSArray+MASAdditions.m in Sources */,
+				2F6B86EC25DF6E2600DA064E /* main.m in Sources */,
+				2F6B874D25DF951A00DA064E /* LandscapeViewController.m in Sources */,
+				2F6B873925DF8ABF00DA064E /* MASCompositeConstraint.m in Sources */,
+				2F6B873D25DF8ABF00DA064E /* View+MASAdditions.m in Sources */,
+				2F6B873725DF8ABF00DA064E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2F6B874025DF8ABF00DA064E /* MASViewAttribute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6B86ED25DF6E2600DA064E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6B86F625DF6E2600DA064E /* LandscapeWindowDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6B86F825DF6E2600DA064E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6B870125DF6E2600DA064E /* LandscapeWindowDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F6B86F325DF6E2600DA064E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F6B86D525DF6E2500DA064E /* LandscapeWindowDemo */;
+			targetProxy = 2F6B86F225DF6E2600DA064E /* PBXContainerItemProxy */;
+		};
+		2F6B86FE25DF6E2600DA064E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F6B86D525DF6E2500DA064E /* LandscapeWindowDemo */;
+			targetProxy = 2F6B86FD25DF6E2600DA064E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F6B86E725DF6E2600DA064E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6B86E825DF6E2600DA064E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F6B870325DF6E2600DA064E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F6B870425DF6E2600DA064E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F6B870625DF6E2600DA064E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LandscapeWindowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.LandscapeWindowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F6B870725DF6E2600DA064E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LandscapeWindowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.LandscapeWindowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F6B870925DF6E2600DA064E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LandscapeWindowDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.LandscapeWindowDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandscapeWindowDemo.app/LandscapeWindowDemo";
+			};
+			name = Debug;
+		};
+		2F6B870A25DF6E2600DA064E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LandscapeWindowDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.LandscapeWindowDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandscapeWindowDemo.app/LandscapeWindowDemo";
+			};
+			name = Release;
+		};
+		2F6B870C25DF6E2600DA064E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LandscapeWindowDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.LandscapeWindowDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LandscapeWindowDemo;
+			};
+			name = Debug;
+		};
+		2F6B870D25DF6E2600DA064E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LandscapeWindowDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.LandscapeWindowDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LandscapeWindowDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F6B86D125DF6E2500DA064E /* Build configuration list for PBXProject "LandscapeWindowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6B870325DF6E2600DA064E /* Debug */,
+				2F6B870425DF6E2600DA064E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6B870525DF6E2600DA064E /* Build configuration list for PBXNativeTarget "LandscapeWindowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6B870625DF6E2600DA064E /* Debug */,
+				2F6B870725DF6E2600DA064E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6B870825DF6E2600DA064E /* Build configuration list for PBXNativeTarget "LandscapeWindowDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6B870925DF6E2600DA064E /* Debug */,
+				2F6B870A25DF6E2600DA064E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6B870B25DF6E2600DA064E /* Build configuration list for PBXNativeTarget "LandscapeWindowDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6B870C25DF6E2600DA064E /* Debug */,
+				2F6B870D25DF6E2600DA064E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F6B86CE25DF6E2500DA064E /* Project object */;
+}
