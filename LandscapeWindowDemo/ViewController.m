@@ -91,6 +91,7 @@
     landscapeVC.orientationMask = UIInterfaceOrientationMaskLandscape;
     UIWindow *landScapeWindow = [[UIWindow alloc] initWithFrame:CGRectMake(0, CGRectGetWidth(UIScreen.mainScreen.bounds), CGRectGetHeight(UIScreen.mainScreen.bounds), 0)];
     landScapeWindow.hidden = NO;
+    landScapeWindow.windowLevel = 10000;
     landScapeWindow.rootViewController = landscapeVC;
     self.landscapeWindow = landScapeWindow;
 }
@@ -105,10 +106,11 @@
 }
 
 - (void)beginRotateAniamtion {
-    NSLog(@"### Landscape window safe area: %@", NSStringFromUIEdgeInsets(self.landscapeWindow.safeAreaInsets));
     UIView *targetView = self.playerVC.view;
-    [self.playerVC setLandscapeLayoutGuide:self.landscapeWindow.safeAreaLayoutGuide];
     UIWindow *firstWindow = [UIApplication sharedApplication].windows.firstObject;
+ 
+    UIEdgeInsets landscapeWindowSafeAreaInsets = self.landscapeWindow.safeAreaInsets;
+    [self.playerVC setAdditionalSafeAreaInsets:landscapeWindowSafeAreaInsets];
     
     [firstWindow addSubview:targetView];
     [targetView mas_remakeConstraints:^(MASConstraintMaker *make) {
@@ -117,12 +119,12 @@
         make.height.equalTo(firstWindow.mas_width);
     }];
 
-
     [UIView animateWithDuration:0.25
                      animations:^{
-        [targetView layoutIfNeeded];
+        [targetView.superview layoutIfNeeded];
         targetView.transform = CGAffineTransformMakeRotation(M_PI_2);
     } completion:^(BOOL finished) {
+        NSLog(@"$$$$ player guide: %@", self.playerVC.view.safeAreaLayoutGuide);
         self.isLandscape = YES;
     }];
 }

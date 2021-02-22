@@ -9,9 +9,19 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface LayoutGuide : UILayoutGuide
+//@property (nonatomic, weak)UILayoutGuide *window_safeAreaGuide;
+@end
+
+@interface PlayerView : UIView
+@property (nonatomic, strong)LayoutGuide *ov_safeAreaGuide;
+
+//- (void)setWindowSafeAreaGuide:(UILayoutGuide *)layoutGuide;
+@end
+
+
 @interface PlayerViewController : UIViewController
 
-- (void)setLandscapeLayoutGuide:(UILayoutGuide *)landscapeLayoutGuide;
 @end
 
 NS_ASSUME_NONNULL_END

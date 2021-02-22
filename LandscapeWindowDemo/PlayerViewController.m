@@ -8,16 +8,40 @@
 #import "PlayerViewController.h"
 #import "Masonry.h"
 
-@interface PlayerView : UIView
-@property (nonatomic) UILayoutGuide *landscapeSafeLayoutGuide;
+@implementation LayoutGuide
+
+//- (CGRect)layoutFrame {
+//    return _window_safeAreaGuide.layoutFrame;
+//}
+
 @end
+
+/*==========================================================================================*/
+#pragma mark - PlayerView
+/*==========================================================================================*/
+
 @implementation PlayerView
 
-- (UILayoutGuide *)safeAreaLayoutGuide {
-    return _landscapeSafeLayoutGuide ?: [super safeAreaLayoutGuide];
-}
-
+//- (UILayoutGuide *)safeAreaLayoutGuide {
+//    return [super safeAreaLayoutGuide];
+//}
+//- (void)setWindowSafeAreaGuide:(UILayoutGuide *)layoutGuide {
+//    if (layoutGuide) {
+//        self.ov_safeAreaGuide.window_safeAreaGuide = layoutGuide;
+//        [self addLayoutGuide:self.ov_safeAreaGuide];
+//    } else {
+//        self.ov_safeAreaGuide.window_safeAreaGuide = layoutGuide;
+//        [self removeLayoutGuide:self.ov_safeAreaGuide];
+//    }
+//}
+//- (LayoutGuide *)ov_safeAreaGuide {
+//    if (!_ov_safeAreaGuide) {
+//        _ov_safeAreaGuide = [[LayoutGuide alloc] init];
+//    }
+//    return _ov_safeAreaGuide;
+//}
 @end
+
 
 /*==========================================================================================*/
 #pragma mark - PlayerViewController
@@ -54,7 +78,7 @@
     self.containerView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.3];
     [self.view addSubview:self.containerView];
     [self.containerView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
+        make.edges.equalTo(self.view.mas_safeAreaLayoutGuide);
     }];
     
     _topBar = [UIView new];
@@ -71,7 +95,7 @@
     [_textField setDelegate:self];
     [self.view addSubview:_textField];
     [_textField mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.view.mas_safeAreaLayoutGuide);
+        make.bottom.equalTo(self.view.mas_safeAreaLayoutGuideBottom);
         make.centerX.equalTo(self.view);
         make.height.equalTo(@40);
         make.width.equalTo(@150);
@@ -85,9 +109,6 @@
     return YES;
 }
 
-- (void)setLandscapeLayoutGuide:(UILayoutGuide *)landscapeLayoutGuide {
-    [(PlayerView *)self.view setLandscapeSafeLayoutGuide:landscapeLayoutGuide];
-}
 /*
 #pragma mark - Navigation
 
